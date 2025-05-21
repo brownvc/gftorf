@@ -1,0 +1,6 @@
+*pycache*
+*.zip
+data/
+output/
+*build*
+*.egg-info/
