@@ -2,7 +2,7 @@
 ### [Project Page](https://visual.cs.brown.edu/gftorf) | [Paper](https://visual.cs.brown.edu/projects/gftorf-webpage/CVPR_2025_Li_Time_of_the_Flight_of_the_Gaussians.pdf) | [arXiv (Latest)](https://arxiv.org/abs/) | [Pre-trained Models](https://drive.google.com/drive/folders/1zaMPEjCJWiIFtjMLTNgt9FOj8zXk79Xm?usp=sharing) | [F-TöRF Data](https://1drv.ms/f/c/4dd35d8ee847a247/EsiF6mb15ZlKlTZmg8N_OIcBCaQGUmWWVNOldMTaRsQXeQ?e=eIy7Rz) | [TöRF Data](https://drive.google.com/drive/folders/18QsJeCYjqtfYCtduzeDMuulgW6EpF4wO?usp=sharing)
 [Runfeng Li](https://ranrandy.github.io), 
 [Mikhail Okunev](https://mmehas.github.io),
-[Zixuan Guo]("https://www.linkedin.com/in/zixuan-g-35a05a1a2),
+[Zixuan Guo](https://www.linkedin.com/in/zixuan-g-35a05a1a2),
 [Anh Ha Duong](https://www.linkedin.com/in/anh-duong-b88a871b3),
 [Christian Richardt](https://richardt.name/)<sup>∞</sup>,
 [Matthew O'Toole](https://www.cs.cmu.edu/~motoole2)<sup>*</sup>,
