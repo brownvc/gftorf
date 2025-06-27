@@ -6,9 +6,9 @@ output_dir = "output/pretrained_models"
 os.makedirs(output_dir, exist_ok=True)
 
 models = {
-    "ftorf_real_scenes": "https://drive.google.com/uc?id=1iFGHI4ZwaLzDYZIRJCEUkPc5REWHWklW",
-    "ftorf_synthetic_scenes": "https://drive.google.com/uc?id=1bY53ood_-RPm-HsFynkz5EwJxTgnqDfZ",
-    "torf_scenes": "https://drive.google.com/uc?id=1JZjrkucOaz9Ci-0kammNdT-QB-J_vCfe",
+    "ftorf_real_scenes": "https://drive.google.com/uc?id=1qrBbsKvf6vborl-q219P9ER07vsypyKS",
+    "ftorf_synthetic_scenes": "https://drive.google.com/uc?id=1gIXcLLUCHUxALTko4v5MmPOgZ32OptYa",
+    "torf_scenes": "https://drive.google.com/uc?id=1sw-adMvqQfqUKhbwL792quxrAL3rHrDY",
 }
 
 for file_name, url in models.items():
