@@ -53,9 +53,8 @@ for fp in os.listdir("data"):
                     os.rename(old_path, new_path)
                     print(f"Renamed {old_path} to {new_path}")
 
-# Step 3: Merge with auxiliary files for GF-ToRF, https://drive.google.com/file/d/1WqtG64R1PWocGGR6ZuDhVPeS7-fl-EGS/view?usp=sharing
-
-auxiliary_zip_url = "https://drive.google.com/uc?id=1WqtG64R1PWocGGR6ZuDhVPeS7-fl-EGS"
+# Step 3: Merge with auxiliary files for GF-ToRF, https://drive.google.com/file/d/10ZGLmid9wH0PP9BrTP_hMji79pzvM7ru/view?usp=sharing
+auxiliary_zip_url = "https://drive.google.com/uc?id=10ZGLmid9wH0PP9BrTP_hMji79pzvM7ru"
 gdown.download(auxiliary_zip_url, quiet=False)
 with zipfile.ZipFile("gftorf_data_aux_files.zip", 'r') as zip_ref:
     zip_ref.extractall(".")
