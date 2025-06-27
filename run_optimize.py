@@ -13,7 +13,7 @@ for scene_type, scene, total_num_views, zfar, lambda_tof, quad_scale, iterations
     # ("ftorf_real_scenes",      "pillow",                64, 0.45, 5.0,  1.0, 60000),
     ("ftorf_real_scenes",      "baseball",              60, 0.45, 5.0,  1.0, 60000), 
     # ("ftorf_real_scenes",      "fan",                   60, 0.45, 5.0,  1.0, 60000),
-    # ("ftorf_real_scenes",      "jacks1",                68, 0.45, 1.0,  2.5, 60000), 
+    # ("ftorf_real_scenes",      "jacks1",                68, 0.45, 1.0,  1.0, 20000), 
     # ("ftorf_real_scenes",      "target1",               68, 0.65, 1.0, 10.0, 20000), # dark
 ]:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -41,9 +41,10 @@ for scene_type, scene, total_num_views, zfar, lambda_tof, quad_scale, iterations
         "--quad_scale", f"{quad_scale}",
     ]
 
-    if scene in ["target1"]:
-        initial_amp = 0.5
+    if scene in ["target1", "jacks1"]:
         amp_div = 1000.0
+        if scene in ["target1"]:
+            initial_amp = 0.5
     else:
         initial_amp = 0.02
         amp_div = 100.0
