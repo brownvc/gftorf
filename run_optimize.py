@@ -41,10 +41,12 @@ for scene_type, scene, total_num_views, zfar, lambda_tof, quad_scale, iterations
         "--quad_scale", f"{quad_scale}",
     ]
 
-    if scene in ["target1", "jacks1"]:
+    if scene in ["target1"]:
         amp_div = 1000.0
-        if scene in ["target1"]:
-            initial_amp = 0.5
+        initial_amp = 0.5
+    elif scene in ["jacks1"]:
+        amp_div = 1000.0
+        initial_amp = 0.1
     else:
         initial_amp = 0.02
         amp_div = 100.0
