@@ -49,10 +49,13 @@ Next, you have two options:
 
 ## Citation
 ```
-@inproceedings{li2025gftorf,
-    title={Time of the Flight of the {Gaussians}: Optimizing Depth Indirectly in Dynamic Radiance Fields},
-    author={Li, Runfeng and Okunev, Mikhail and Guo, Zixuan and Duong, Anh Ha and Richardt, Christian and O'Toole, Matthew and Tompkin, James},
-    booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year={2025},
+@InProceedings{Li_2025_CVPR,
+  author    = {Li, Runfeng and Okunev, Mikhail and Guo, Zixuan and Duong, Anh Ha and Richardt, Christian 
+              and O'Toole, Matthew and Tompkin, James},
+  title     = {Time of the Flight of the Gaussians: Optimizing Depth Indirectly in Dynamic Radiance Fields},
+  booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+  month     = {June},
+  year      = {2025},
+  pages     = {21021-21030}
 }
 ```
