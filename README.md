@@ -6,7 +6,7 @@
 [Anh Ha Duong](https://www.linkedin.com/in/anh-duong-b88a871b3),
 [Christian Richardt](https://richardt.name/)<sup>∞</sup>,
 [Matthew O'Toole](https://www.cs.cmu.edu/~motoole2)<sup>*</sup>,
-[James Tompkin](www.jamestompkin.com)<br>
+[James Tompkin](https://www.jamestompkin.com)<br>
 Brown University, <sup>∞</sup>Meta Reality Labs, *Carnegie Mellon University
 
 ## Quick Start
